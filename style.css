@@ -1,0 +1,52 @@
+:root {
+    --cork-red: #fe1e00;
+    --bg: #fff;
+    --contrast: #212121;
+    --radius: 30px;
+}
+
+body {
+    background-image:
+      linear-gradient(45deg, var(--cork-red) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, var(--cork-red) 75%),
+      linear-gradient(45deg, transparent 75%, var(--cork-red) 75%),
+      linear-gradient(45deg, var(--cork-red) 25%, var(--bg) 25%);    
+    background-size:50px 50px;       
+    background-position:0 0, 0 0, -25px -25px, 25px 25px;
+
+    text-align: center;
+    color: var(--contrast);
+
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+.ccu-logo {
+    width: 30rem;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--contrast);
+}
+
+a:visited {
+    color: var(--contrast);
+}
+
+a:hover > article {
+    background-color: var(--contrast);
+    color: var(--bg);
+}
+
+article {
+    background-color: var(--bg);
+    display: block;
+    max-width: 20rem;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: var(--radius);
+    box-shadow: 0 0 20px #00000077;
+}
