@@ -1,19 +1,19 @@
 :root {
-    --cork-red: #fe1e00;
+    --cork-red: #ff6b64;
     --bg: #fff;
     --contrast: #212121;
     --radius: 30px;
 }
 
 body {
-    background-image:
+    /* background-image:
       linear-gradient(45deg, var(--cork-red) 25%, transparent 25%),
       linear-gradient(45deg, transparent 75%, var(--cork-red) 75%),
       linear-gradient(45deg, transparent 75%, var(--cork-red) 75%),
       linear-gradient(45deg, var(--cork-red) 25%, var(--bg) 25%);    
     background-size:24px 24px;       
-    background-position:0 0, 0 0, -12px -12px, 12px 12px;
-
+    background-position:0 0, 0 0, -12px -12px, 12px 12px; */
+    background-color: rgba(255, 107, 100, 1);
     text-align: center;
     color: var(--contrast);
 
