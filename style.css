@@ -3,6 +3,7 @@
     --bg: #fff;
     --contrast: #212121;
     --radius: 10px;
+    --radius-L: 25px;
 }
 
 body {
@@ -40,13 +41,26 @@ a:hover > article {
     color: var(--bg);
 }
 
+.link-group {
+    margin-bottom: 3rem;
+}
+
 article {
     background-color: var(--bg);
     display: block;
-    max-width: 20rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     font-size: 1.2rem;
     padding: 0.75rem;
     border-radius: var(--radius);
     box-shadow: 0 0 20px #00000077;
+}
+
+article.link {
+    max-width: 20rem;
+    border-radius: var(--radius-L);
+}
+
+article.about {
+    text-align: left;
+    max-width: 65ch;
 }
